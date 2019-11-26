@@ -75,12 +75,7 @@
     </q-drawer>
 
     <q-page-container>
-      <q-tabs align="left" class="bg-primary text-white shadow-2">
-        <q-route-tab to="/page1" label="One" />
-        <q-route-tab to="/page2" label="Two" />
-        <q-route-tab to="/page3" label="Three" />
-      </q-tabs>
-
+      <Tab />
       <HelloWorld />
     </q-page-container>
   </q-layout>
@@ -88,12 +83,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Tab from './components/Tabs.vue'
 
 export default {
   name: 'LayoutDefault',
 
   components: {
-    HelloWorld
+    HelloWorld,
+    Tab
+
   },
 
   data () {
