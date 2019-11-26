@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>App v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -75,6 +75,12 @@
     </q-drawer>
 
     <q-page-container>
+      <q-tabs align="left" class="bg-primary text-white shadow-2">
+        <q-route-tab to="/page1" label="One" />
+        <q-route-tab to="/page2" label="Two" />
+        <q-route-tab to="/page3" label="Three" />
+      </q-tabs>
+
       <HelloWorld />
     </q-page-container>
   </q-layout>

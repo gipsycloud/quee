@@ -3,7 +3,7 @@ import Vue from 'vue'
 import './styles/quasar.styl'
 import '@quasar/extras/material-icons/material-icons.css'
 import {
-  Quasar, 
+  Quasar,
   QLayout,
   QHeader,
   QDrawer,
@@ -11,6 +11,9 @@ import {
   QPage,
   QToolbar,
   QToolbarTitle,
+  QTabs,
+  QTab,
+  QRouteTab,
   QBtn,
   QIcon,
   QList,
@@ -29,6 +32,9 @@ Vue.use(Quasar, {
     QPage,
     QToolbar,
     QToolbarTitle,
+    QTabs,
+    QTab,
+    QRouteTab,
     QBtn,
     QIcon,
     QList,
