@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <p>Home</p>
+    <p>Pageone </p>
   </div>
 </template>
 
