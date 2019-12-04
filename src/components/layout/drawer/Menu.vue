@@ -1,7 +1,7 @@
 <template>
   <q-list>
     <q-item-label header>Profile</q-item-label>
-    <img src="../statics/img/avatar.png" class="avatar">
+    <img src="@/statics/img/avatar.png" class="avatar">
     <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
       <q-item-section avatar>
         <q-icon name="school" />

@@ -26,48 +26,21 @@
     >
       <Menu />
     </q-drawer>
-
-    <Tab />
     <!-- <Pagetwo /> -->
-    <div class="q-pa-md q-gutter-sm">
-      <q-avatar color="red" text-color="white" icon="directions" />
-      <q-avatar color="primary" text-color="white">J</q-avatar>
-      <q-avatar size="100px" font-size="52px" color="teal" text-color="white" icon="directions" />
-      <q-avatar size="24px" color="orange">J</q-avatar>
-      <q-avatar>
-        <img src="`/public/img/icons/one.jpg`" >
-      </q-avatar>
-    </div>
-    <q-card dark bordered class="bg-grey-9 my-card">
-      <q-card-section>
-        <div class="text-h6">Our Changing Planet</div>
-        <div class="text-subtitle2">by John Doe</div>
-      </q-card-section>
-
-      <q-separator dark inset />
-
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-    </q-card>
-
-    <div class="q-pa-md" style="max-width: 300px">
-      <div class="q-gutter-md">
-        <q-select v-model="model" :options="options" label="Standard" />
-      </div>
-    </div>
-
-    <q-page-container>
-      <router-view />
-    </q-page-container>
-    
+    <q-layout>
+      <q-page-container>
+        <router-view />
+        <Data />
+        <Tab />
+      </q-page-container>
+    </q-layout>
   </q-layout>
 </template>
 
 <script>
 import { date } from 'quasar'
-import Menu from './components/Menu.vue'
-// import Pagetwo from './components/Pagetwo.vue'
+import Data from './components/Data.vue'
+import Menu from './components/layout/drawer/Menu.vue'
 import Tab from './components/Tabs.vue'
 
 export default {
@@ -89,7 +62,7 @@ export default {
   },
   components: {
     Menu,
-    // Pagetwo,
+    Data,
     Tab
   },
   data () {
