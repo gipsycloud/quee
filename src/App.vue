@@ -41,7 +41,7 @@
 import { date } from 'quasar'
 import Data from './components/Data.vue'
 import Menu from './components/layout/drawer/Menu.vue'
-import Tab from './components/Tabs.vue'
+import Tab from './components/layout/drawer/Tabs.vue'
 
 export default {
   name: 'LayoutDefault',
