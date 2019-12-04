@@ -1,7 +1,34 @@
 <template>
   <q-list>
-    <q-item-label header>Profile</q-item-label>
-    <img src="@/statics/img/avatar.png" class="avatar">
+    <div id="profile">
+      <img src="@/statics/img/avatar.svg" class="avatar">
+      <div id="user-name">
+        <span class="text-white"> Aung Aung </span>
+        <hr>
+      </div>
+      <div id="user-actions">
+        <q-btn
+          size="7px"
+          color="primary"
+          label="Text"
+        />
+        <q-btn
+          size="7px"
+          color="primary"
+          label="Text"
+        />
+        <q-btn
+          size="7px"
+          color="primary"
+          label="Exit"
+          @click='logout'
+        />
+        <!-- <button class="bordered blue small" ><i>person</i></button>
+        <button class="bordered blue small" ><i>lock</i></button>
+        <button class="bordered blue small" @click='logOut'><i>exit_to_app</i></button> -->
+     </div>
+    </div>
+
     <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
       <q-item-section avatar>
         <q-icon name="school" />
@@ -54,14 +81,56 @@
 export default {
 
   name: 'menu',
-
   data () {
     return {
+      sizes: ['xs', 'sm', 'md', 'lg', 'xl'],
+      icons: [
+        'navigation',
+        'add_a_photo',
+        'camera',
+        'camera_font',
+        'my_location'
+      ]
+    }
+  },
+  methods: {
+    logout() {
 
     }
   }
 }
 </script>
 
-<style lang="css" scoped>
+<style scoped>
+  .fixed-bottom {
+    margin-bottom: 1%;
+  }
+
+  .fixed-bottom a img {
+    width: 25px;
+    height: 25px;
+  }
+  .avatar{
+    /* padding: 20px; */
+    margin: 17px;
+  }
+  #profile {
+    height: 130px;
+    background-color: #009688;
+  }
+  #user-name {
+    left: 90px;
+    bottom: 77px;
+    position: relative;
+    width: 159px;
+  }
+  #user-actions {
+    left: 90px;
+    bottom: 71px;
+    position: relative;
+    width: 171px;
+  }
+  #menu-collapse {
+    margin-top: 5%;
+  }
 </style>
