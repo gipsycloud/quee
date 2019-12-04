@@ -74,6 +74,10 @@
         <!-- <q-item-label caption>@quasarframework</q-item-label> -->
       </q-item-section>
     </q-item>
+
+    <div class="fixed-bottom text-center light text-italic">
+      version - {{ $q.version }}
+    </div>
   </q-list>
 </template>
 

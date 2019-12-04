@@ -10,12 +10,7 @@
           aria-label="Menu"
           icon="menu"
         />
-
-        <q-toolbar-title>
-          App
-        </q-toolbar-title>
-
-        <div>{{ todaysDate }} | v- {{ $q.version }}</div>
+        <q-toolbar-title>App</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -26,14 +21,14 @@
     >
       <Menu />
     </q-drawer>
-    <!-- <Pagetwo /> -->
-    <q-layout>
-      <q-page-container>
-        <router-view />
-        <Data />
-        <Tab />
-      </q-page-container>
-    </q-layout>
+
+    <q-page-container>
+      <router-view />
+      <Data />
+    </q-page-container>
+
+    <Tab />
+
   </q-layout>
 </template>
 
