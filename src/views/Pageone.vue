@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <p>Pageone </p>
+    <p>Welcome to Pageone </p>
   </div>
 </template>
 

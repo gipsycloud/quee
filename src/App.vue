@@ -11,6 +11,14 @@
           icon="menu"
         />
         <q-toolbar-title>App</q-toolbar-title>
+        <q-tabs
+          v-model="tab"
+          class=""
+        >
+          <q-tab name="mails" icon="mail" label="" >
+            <q-badge color="primary" text-color="white" floating>2</q-badge>
+          </q-tab>
+        </q-tabs>
       </q-toolbar>
     </q-header>
 
@@ -24,7 +32,6 @@
 
     <q-page-container>
       <router-view />
-      <Data />
     </q-page-container>
 
     <div class="fixed-bottom text-center light text-bold">
@@ -36,7 +43,6 @@
 
 <script>
 import { date } from 'quasar'
-import Data from './components/Data.vue'
 import Menu from './components/layout/drawer/Menu.vue'
 import Tab from './components/layout/drawer/Tabs.vue'
 
@@ -59,7 +65,6 @@ export default {
   },
   components: {
     Menu,
-    Data,
     Tab
   },
   data () {

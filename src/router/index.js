@@ -2,20 +2,17 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Pageone from '../views/Pageone.vue'
+import Pagetwo from '../views/Pagetwo.vue'
+import Pagethree from '../views/Pagethree.vue'
+
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: Home
-  },
-  {
-    path: '/pageone',
-    name: 'pageone',
-    component: Pageone
-  }
+  { path: '/', name: 'home', component: Home },
+  { path: '/page1', name: 'pageone', component: Pageone },
+  { path: '/page2', name: 'pagetwo', component: Pagetwo },
+  { path: '/page3', name: 'pagethree', component: Pagethree },
   // {
   //   path: '/about',
   //   name: 'about',
