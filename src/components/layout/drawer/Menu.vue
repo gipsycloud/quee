@@ -29,12 +29,12 @@
      </div>
     </div>
 
-    <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
+    <q-item clickable tag="a" target="" href="/setting">
       <q-item-section avatar>
-        <q-icon name="school" />
+        <q-icon name="settings" />
       </q-item-section>
       <q-item-section>
-        <q-item-label>Docs</q-item-label>
+        <q-item-label>Setting</q-item-label>
         <!-- <q-item-label caption>quasar.dev</q-item-label> -->
       </q-item-section>
     </q-item>
