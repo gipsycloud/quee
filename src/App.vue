@@ -27,7 +27,9 @@
       <Data />
     </q-page-container>
 
-    <Tab />
+    <div class="fixed-bottom text-center light text-bold">
+      <Tab />
+    </div>
 
   </q-layout>
 </template>
