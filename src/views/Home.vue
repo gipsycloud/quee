@@ -1,18 +1,49 @@
-<template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="html">
+  <q-list class="shadow-2 rounded-borders" style="margin-top: 1.5%">
+    <q-item>
+      <q-item-section thumbnail>
+        <img src="https://cdn.quasar.dev/img/mountains.jpg">
+      </q-item-section>
+      <q-item-section>Mountains</q-item-section>
+    </q-item>
+
+    <q-separator inset="item-thumbnail" />
+
+    <q-item>
+      <q-item-section thumbnail>
+        <img src="https://cdn.quasar.dev/img/parallax1.jpg">
+      </q-item-section>
+      <q-item-section>Venice</q-item-section>
+    </q-item>
+
+    <q-item>
+      <q-item-section thumbnail>
+        <img src="https://cdn.quasar.dev/img/parallax2.jpg">
+      </q-item-section>
+      <q-item-section>The Bridge</q-item-section>
+    </q-item>
+
+    <q-item>
+      <q-item-section thumbnail>
+        <img src="https://cdn.quasar.dev/img/parallax2.jpg">
+      </q-item-section>
+      <q-item-section>The Bridge</q-item-section>
+    </q-item>
+
+    <q-item>
+      <q-item-section thumbnail>
+        <img src="https://cdn.quasar.dev/img/parallax2.jpg">
+      </q-item-section>
+      <q-item-section>The Bridge</q-item-section>
+    </q-item>
+  </q-list>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    // HelloWorld
-  }
 }
 </script>
+
+<style lang="css" scoped>
+
+</style>
