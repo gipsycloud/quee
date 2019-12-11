@@ -3,10 +3,10 @@
 	<div class="">
 		<div id="profile">
 			<div class="column items-center">
-	      <img src="@/statics/img/avatar.svg" class="avatar">
-	    </div>
-	    <hr>
-	    <!-- <div class="column items-center"> -->
+				<img src="@/statics/img/avatar.svg" class="avatar">
+			</div>
+			<hr>
+			<!-- <div class="column items-center"> -->
 	<!--     </div> -->
       <!-- <div id="user-actions"> -->
         <!-- <q-btn
@@ -30,9 +30,9 @@
         <button class="bordered blue small" @click='logOut'><i>exit_to_app</i></button> -->
      <!-- </div> -->
     </div>
-    <div id="user-name">
-	  	<span class="text-white"> Aung Aung </span>
-	  </div>
+		<div id="user-name">
+			<span class="text-white"> Aung Aung </span>
+		</div>
 
 		<div class="q-gutter-xl" style="">
 			<q-input v-model="text" label="Name" required minlength="4" maxlength="8" size="10" />
