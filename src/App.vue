@@ -33,6 +33,10 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <q-page-sticky position="bottom-right" :offset="[18, 18]">
+      <q-btn fab icon="add" color="accent" ></q-btn>
+    </q-page-sticky>
+
 
     <div class="fixed-bottom text-center light text-bold">
       <Tab />
