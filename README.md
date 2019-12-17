@@ -33,3 +33,6 @@ https://ionicons.com/
 
 ### Reference
 https://gist.github.com/justinatack
+
+### ReadMe
+project/social_auth/ (for facebook login)
