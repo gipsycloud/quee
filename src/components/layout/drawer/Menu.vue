@@ -99,7 +99,10 @@ export default {
   },
   methods: {
     logout() {
-
+      
+    },
+    back() {
+      history.back()
     }
   }
 }
