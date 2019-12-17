@@ -22,4 +22,10 @@ export default [
 {
 	path: '/page3',
 	view: 'Pagethree'
-}]
+},
+{
+	path: '/login',
+	view: 'Login'
+}
+
+]
