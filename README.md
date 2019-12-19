@@ -27,3 +27,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### icons
+https://ionicons.com/
+
+### Reference
+https://gist.github.com/justinatack
+
+### ReadMe
+project/social_auth/ (for facebook login)
