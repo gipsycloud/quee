@@ -1,26 +1,30 @@
 <template>
   <q-page class="bg-light-blue window-height window-width row justify-center items-center">
-    <div class="column">
-      <div class="row">
-        <h5 class="text-h5 text-white q-my-md">Company & Co</h5>
-      </div>
-      <div class="row">
-        <q-card square bordered class="q-pa-lg shadow-1">
-          <q-card-section>
-            <q-form class="q-gutter-md">
-              <q-input square filled clearable v-model="email" type="email" label="email" />
-              <q-input square filled clearable v-model="password" type="password" label="password" />
-            </q-form>
-          </q-card-section>
-          <q-card-actions class="q-px-md">
-            <q-btn unelevated color="light-green-7" size="lg" class="full-width" label="Login" />
-          </q-card-actions>
-          <q-card-section class="text-center q-pa-none">
-            <p class="text-grey-6">Not reigistered? Created an Account</p>
-          </q-card-section>
-        </q-card>
-      </div>
-    </div>
+    <q-card inline style="width: 500px">
+      <q-card-media>
+        <!-- <img src="~assets/donuts.png"> -->
+        <img src="@/assets/donuts.png" class="">
+      </q-card-media>
+      <q-card-title>
+        Cafe Basilico
+        <q-rating slot="subtitle" v-model="stars" :max="5" />
+        <div slot="right" class="row items-center">
+          <q-icon name="place" /> 250 ft
+        </div>
+      </q-card-title>
+      <q-card-main>
+        <p>$・Italian, Cafe</p>
+        <p class="text-faded">Small plates, salads & sandwiches in an intimate setting.</p>
+      </q-card-main>
+      <q-card-separator />
+      <q-card-actions>
+        <q-btn flat round small><q-icon name="event" /></q-btn>
+        <q-btn flat>5:30PM</q-btn>
+        <q-btn flat>7:30PM</q-btn>
+        <q-btn flat>9:00PM</q-btn>
+        <q-btn flat color="primary">Reserve</q-btn>
+      </q-card-actions>
+    </q-card>
   </q-page>
 </template>
 

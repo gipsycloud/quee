@@ -15,9 +15,15 @@
           v-model="tab"
           class=""
         >
-          <q-tab name="mails" icon="mail" label="" >
-            <q-badge color="primary" text-color="white" floating>2</q-badge>
-          </q-tab>
+          <div class="col-sm-12 col-xs-12 q-mt-md">
+            <div>
+              <q-btn class="q-mr-md" dense round flat icon="shopping_cart">
+                <q-badge color="red" class="text-bold" floating transparent>
+                  4
+                </q-badge>
+              </q-btn>
+            </div>
+          </div>
         </q-tabs>
       </q-toolbar>
     </q-header>
@@ -33,11 +39,6 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-page-sticky position="bottom-right" :offset="[18, 18]">
-      <q-btn fab icon="add" color="accent" ></q-btn>
-    </q-page-sticky>
-
-
     <div class="fixed-bottom text-center light text-bold">
       <Tab />
     </div>
