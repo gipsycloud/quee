@@ -26,12 +26,35 @@ import {
   QRouteTab,
   QSelect,
   QSeparator,
+  QSpinner,
   QTab,
   QTabs,
   QTime,
   QToolbar,
   QToolbarTitle,
   Quasar,
+
+  // for spinner
+
+  QSpinnerAudio,
+  QSpinnerBall,
+  QSpinnerBars,
+  QSpinnerComment,
+  QSpinnerCube,
+  QSpinnerDots,
+  QSpinnerFacebook,
+  QSpinnerGears,
+  QSpinnerGrid,
+  QSpinnerHearts,
+  QSpinnerHourglass,
+  QSpinnerInfinity,
+  QSpinnerIos,
+  QSpinnerOval,
+  QSpinnerPie,
+  QSpinnerPuff,
+  QSpinnerRadio,
+  QSpinnerRings,
+  QSpinnerTail
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -60,11 +83,34 @@ Vue.use(Quasar, {
     QRouteTab,
     QSelect,
     QSeparator,
+    QSpinner,
     QTab,
     QTabs,
     QTime,
     QToolbar,
     QToolbarTitle,
+
+    // for spinner
+
+    QSpinnerAudio,
+    QSpinnerBall,
+    QSpinnerBars,
+    QSpinnerComment,
+    QSpinnerCube,
+    QSpinnerDots,
+    QSpinnerFacebook,
+    QSpinnerGears,
+    QSpinnerGrid,
+    QSpinnerHearts,
+    QSpinnerHourglass,
+    QSpinnerInfinity,
+    QSpinnerIos,
+    QSpinnerOval,
+    QSpinnerPie,
+    QSpinnerPuff,
+    QSpinnerRadio,
+    QSpinnerRings,
+    QSpinnerTail
   },
   directives: {
   },
