@@ -40,3 +40,4 @@ project/social_auth/ (for facebook login)
 
 ------------------------------
 ------------------------------
+#	https://quasar.dev/vue-components/inner-loading

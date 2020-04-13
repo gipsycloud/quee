@@ -9,6 +9,7 @@ import {
   QCardSection,
   QCardActions,
   QBtn,
+  QBadge,
   QDrawer,
   QForm,
   QHeader,
@@ -54,7 +55,8 @@ import {
   QSpinnerPuff,
   QSpinnerRadio,
   QSpinnerRings,
-  QSpinnerTail
+  QSpinnerTail,
+  QInnerLoading
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -63,6 +65,7 @@ Vue.use(Quasar, {
     QAvatar,
     QAjaxBar,
     QBtn,
+    QBadge,
     QCard,
     QCardSection,
     QCardActions,
@@ -110,7 +113,8 @@ Vue.use(Quasar, {
     QSpinnerPuff,
     QSpinnerRadio,
     QSpinnerRings,
-    QSpinnerTail
+    QSpinnerTail,
+    QInnerLoading
   },
   directives: {
   },
