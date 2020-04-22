@@ -1,21 +1,26 @@
 <template>
-  <div class="q-pa-md">
-    <div class="row">
-      <q-date v-model="model" mask="YYYY-MM-DD HH:mm" color="purple" />
-      <q-time v-model="model" mask="YYYY-MM-DD HH:mm" color="purple" />
-    </div>
+  <div>
+    <q-btn
+      @click="$q.notify('My message')"
+      color="primary"
+      label="Show a notification"
+    />
+
+    <q-btn
+      @click="showNotification"
+      color="primary"
+      label="Show another notification"
+    />
   </div>
+
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      model: '2019-02-22 21:02'
+  methods: {
+    showNotification () {
+      this.$q.notify('Some other message')
     }
   }
 }
 </script>
-
-<style lang="css" scoped>
-</style>

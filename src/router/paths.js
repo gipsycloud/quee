@@ -24,6 +24,10 @@ export default [
 	view: 'Pagethree'
 },
 {
+	path: '/page4',
+	view: 'Pagefour'
+},
+{
 	path: '/login',
 	view: 'Login'
 }
