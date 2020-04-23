@@ -89,54 +89,6 @@
       </q-item>
     </router-link>
 
-    <router-link v-bind:to="'/profile'" class="exact-active">
-      <q-item clickable tag="a" target="" href="/profile">
-        <q-item-section avatar>
-          <q-icon name="person" />
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>Profile</q-item-label>
-          <!-- <q-item-label caption>github.com/quasarframework</q-item-label> -->
-        </q-item-section>
-      </q-item>
-    </router-link>
-
-    <router-link v-bind:to="'/login'" class="exact-active">
-      <q-item >
-        <q-item-section avatar>
-          <q-icon name="person" />
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>Login</q-item-label>
-          <!-- <q-item-label caption>chat.quasar.dev</q-item-label> -->
-        </q-item-section>
-      </q-item>
-    </router-link>
-
-    <router-link v-bind:to="'/form'" class="exact-active">
-      <q-item>
-        <q-item-section avatar>
-          <q-icon name="forum" />
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>Forum</q-item-label>
-          <!-- <q-item-label caption>forum.quasar.dev</q-item-label> -->
-        </q-item-section>
-      </q-item>
-    </router-link>
-
-    <router-link v-bind:to="'/'" class="exact-active">
-      <q-item>
-        <q-item-section avatar>
-          <q-icon name="rss_feed" />
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>Twitter</q-item-label>
-          <!-- <q-item-label caption>@quasarframework</q-item-label> -->
-        </q-item-section>
-      </q-item>
-    </router-link>
-
     <div class="fixed-bottom text-center light text-italic">
       version - {{ $q.version }}
     </div>
