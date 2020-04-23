@@ -17,8 +17,8 @@
         >
           <div class="col-sm-12 col-xs-12 q-mt-md">
             <div>
-              <q-btn class="q-mr-md" dense round flat icon="shopping_cart">
-                <q-badge color="red" class="text-bold" floating transparent>
+              <q-btn dense round flat icon="email" class="q-mr-md" >
+                <q-badge dense flat class="text-bold" floating color = "transparent">
                   4
                 </q-badge>
               </q-btn>

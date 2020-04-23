@@ -36,3 +36,8 @@ https://gist.github.com/justinatack
 
 ### ReadMe
 project/social_auth/ (for facebook login)
+
+
+------------------------------
+------------------------------
+#	https://quasar.dev/vue-components/inner-loading

@@ -1,5 +1,6 @@
-<template lang="html">
-  <div class="column">
+<template>
+  <q-page class="bg-light-blue window-width row justify-center items-center">
+    <div class="column">
       <div class="row">
         <h5 class="text-h5 text-white q-my-md">Company & Co</h5>
       </div>
@@ -20,13 +21,23 @@
         </q-card>
       </div>
     </div>
+  </q-page>
 </template>
 
 <script>
 export default {
+  name: 'Login',
+  data () {
+    return {
+      email: '',
+      password: ''
+    }
+  }
 }
 </script>
 
-<style lang="css" scoped>
-
+<style>
+.q-card {
+  width: 360px;
+}
 </style>

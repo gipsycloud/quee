@@ -8,10 +8,9 @@ module.exports = {
     'eslint:recommended'
   ],
   rules: {
+    'no-mixed-spaces-and-tabs': 0, // disable rule
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    "no-mixed-spaces-and-tabs": 0, // disable rule
-    // 'vue/html-no-self-closing': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint'
